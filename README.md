@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-KeycardInventoryBypass 是一个用于 SCP: Secret Laboratory 的 Exiled 插件，允许玩家在无需手持钥匙卡的情况下，直接使用背包中的钥匙卡完成开门操作。该插件在不破坏原有权限机制的前提下，显著提升了玩家的操作流畅度与游戏体验。
+KeycardInventoryBypass 是一个用于 SCPSL SCP: Secret Laboratory 的 Exiled 插件，允许玩家在无需手持钥匙卡的情况下，直接使用背包中的钥匙卡完成开门操作。该插件在不破坏原有权限机制的前提下，显著提升了玩家的操作流畅度与游戏体验。
 
 ## 核心特性
 
@@ -64,3 +64,4 @@ keycard_inventory_bypass:
 
 
 感谢所有使用、测试并支持本插件的玩家与服务器管理员 ❤️
+
