@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user123\\Downloads\\AutoEvent-9.12.0\\KeycardInventoryBypass\\KeycardInventoryBypass.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user123\\Downloads\\AutoEvent-9.12.0\\KeycardInventoryBypass\\KeycardInventoryBypass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user123\\Downloads\\AutoEvent-9.12.0\\KeycardInventoryBypass\\KeycardInventoryBypass.csproj",
+        "projectName": "KeycardInventoryBypass",
+        "projectPath": "C:\\Users\\user123\\Downloads\\AutoEvent-9.12.0\\KeycardInventoryBypass\\KeycardInventoryBypass.csproj",
+        "packagesPath": "C:\\Users\\user123\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user123\\Downloads\\AutoEvent-9.12.0\\KeycardInventoryBypass\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "ExMod.Exiled": {
+              "target": "Package",
+              "version": "[9.6.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
