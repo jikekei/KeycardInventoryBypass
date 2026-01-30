@@ -12,7 +12,6 @@ KeycardInventoryBypass 是一个用于 SCP: Secret Laboratory 的 Exiled 插件�
 
 ## 环境要求
 
-- SCP: Secret Laboratory（正版服务器）
 - Exiled 9.6.0 或更高版本
 
 ## 安装方法
@@ -62,5 +61,6 @@ keycard_inventory_bypass:
 本项目采用 MIT License，详情请参阅 [LICENSE](LICENSE) 文件
 
 ## 致谢
+
 
 感谢所有使用、测试并支持本插件的玩家与服务器管理员 ❤️
