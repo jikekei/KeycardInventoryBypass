@@ -65,3 +65,8 @@ keycard_inventory_bypass:
 
 感谢所有使用、测试并支持本插件的玩家与服务器管理员 ❤️
 
+## LabAPI 版本
+
+仓库的 [LabAPI 目录](LabAPI/README.md) 提供独立的 LabAPI 1.1.7 实现及构建、安装说明。现有根目录项目仍为 Exiled 版本。两种版本只需安装其中一种。
+
+`1.1.0` GitHub Release 会同时提供 Exiled 与 LabAPI DLL，请按服务器安装的框架选择对应文件。

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>KeycardInventoryBypass.LabAPI</AssemblyName>
+    <Version>1.1.0</Version>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <ScpslReferences Condition="'$(ScpslReferences)' == ''">$(SL_REFERENCES)</ScpslReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Northwood.LabAPI" Version="1.1.7" />
+    <Reference Include="Assembly-CSharp" HintPath="$(ScpslReferences)\Assembly-CSharp.dll" Private="false" />
+  </ItemGroup>
+</Project>

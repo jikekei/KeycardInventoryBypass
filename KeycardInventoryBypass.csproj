@@ -3,6 +3,7 @@
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
+    <Version>1.1.0</Version>
     <OutputPath>bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
@@ -12,5 +13,8 @@
     <Reference Include="Assembly-CSharp" HintPath="$(SL_REFERENCES)\Assembly-CSharp.dll" />
     <Reference Include="UnityEngine.CoreModule" HintPath="$(SL_REFERENCES)\UnityEngine.CoreModule.dll" />
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="LabAPI\**\*.cs" />
   </ItemGroup>
 </Project>
