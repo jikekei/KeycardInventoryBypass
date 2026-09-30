@@ -3,18 +3,20 @@
     <TargetFramework>net48</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <OutputPath>bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ExMod.Exiled" Version="9.6.0" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp" HintPath="$(SL_REFERENCES)\Assembly-CSharp.dll" />
-    <Reference Include="UnityEngine.CoreModule" HintPath="$(SL_REFERENCES)\UnityEngine.CoreModule.dll" />
+    <Reference Include="Assembly-CSharp" HintPath="$(SL_REFERENCES)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(SL_REFERENCES)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="Mirror" HintPath="$(SL_REFERENCES)\Mirror.dll" Private="false" />
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="LabAPI\**\*.cs" />
+    <Compile Remove="Tests\**\*.cs" />
   </ItemGroup>
 </Project>

@@ -4,12 +4,17 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <AssemblyName>KeycardInventoryBypass.LabAPI</AssemblyName>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <ScpslReferences Condition="'$(ScpslReferences)' == ''">$(SL_REFERENCES)</ScpslReferences>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Northwood.LabAPI" Version="1.1.7" />
     <Reference Include="Assembly-CSharp" HintPath="$(ScpslReferences)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(ScpslReferences)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="Mirror" HintPath="$(ScpslReferences)\Mirror.dll" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\*.cs" Link="Shared\%(Filename)%(Extension)" />
   </ItemGroup>
 </Project>

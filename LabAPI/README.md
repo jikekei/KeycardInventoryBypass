@@ -12,6 +12,8 @@ dotnet build .\LabAPI\KeycardInventoryBypass.LabAPI.csproj -c Release -p:ScpslRe
 
 GitHub Release 会同时提供 Exiled 与 LabAPI 两个 DLL。本地构建产物位于 `LabAPI/bin/Release/net48/KeycardInventoryBypass.LabAPI.dll`。服务器自带 LabAPI；部署时只复制 `KeycardInventoryBypass-LabAPI.dll` 到 `%AppData%\SCP Secret Laboratory\LabAPI\plugins\<端口号>\`（或 `global`），不要复制 NuGet 依赖或构建目录里的 PDB。
 
+背包中的地表通行证仅在实际成功开门后按游戏原生规则消耗，不能用于关闭大门。优先使用可重复使用的钥匙卡，避免不必要地消耗通行证；手持一次性通行证时由游戏原生逻辑处理。
+
 ## 配置
 
 LabAPI 在 `%AppData%\SCP Secret Laboratory\LabAPI\configs\<端口号>\KeycardInventoryBypass\config.yml` 管理配置：
